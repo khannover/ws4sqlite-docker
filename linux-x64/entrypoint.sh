@@ -1,3 +1,4 @@
 #!/bin/sh
 
-/bin/ws4sqlite --db /my.db
+mkdir -p /database
+/bin/ws4sqlite --db /database/my.db
